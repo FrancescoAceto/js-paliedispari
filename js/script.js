@@ -49,3 +49,25 @@ function isPalindrome(UserInput) {
         return false;
     }
 };
+
+// Fine Palindromi
+
+//Inizio Pari e Dispari
+let UserNumberEL = document.getElementById("UserNumber");
+let UserButtonPariEL = document.getElementById("UserButtonPari");
+let UserButtonDispariEL = document.getElementById("UserButtonDispari");
+let GameOutputEL = document.getElementById("GameOutput");
+
+let contatore = 0
+
+while (contatore < 5) {
+    GameOutputEL.innerText = RandomNumberBetween(1,5);
+}
+
+
+
+function RandomNumberBetween(min, max) {
+    let randomNumber = Math.floor(Math.random() * (max - min + 1) + min)
+
+    return random;
+}
